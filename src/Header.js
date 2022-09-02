@@ -10,7 +10,7 @@ const Header = () => {
                 </a>
             </div>
             <div className="header-sub-container-two">
-                <a className="baz-image-link" href="https://github.com/bazmurphy/codewars" target="_blank" rel="noreferrer">
+                <a className="baz-image-link" href="https://github.com/bazmurphy/codewars-collections" target="_blank" rel="noreferrer">
                     <img className="baz-image" src="bazavatar.png" alt="baz logo" />
                 </a>
             </div>
