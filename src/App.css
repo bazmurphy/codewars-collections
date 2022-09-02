@@ -11,7 +11,6 @@ body {
 }
 
 .App {
-  /* max-width: 700px; */
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
@@ -72,6 +71,7 @@ body {
 .collection-container {
   display: flex;
   flex-direction: column;
+  /* flex-wrap: wrap; */
   gap: 0.5rem;
   padding: 0.5rem;
   background-color: hsl(228, 7%, 14%);
@@ -131,7 +131,7 @@ body {
 
 .kata-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 0.25rem;
   padding: 0.5rem;
   border: 0.15rem solid hsl(240, 4%, 22%);
@@ -141,7 +141,7 @@ body {
 
 .kata-sub-container-one {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   gap: 0.25rem;
 }
 
