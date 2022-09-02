@@ -11,9 +11,10 @@ function App() {
     <div className="App">
       <Header />
 
-      {collectionKataData.map(element => {
+      {collectionKataData.map((element, index) => {
         return (
           <Collection
+            key={index}
             collectionUrl={element.collectionUrl}
             collectionTitle={element.collectionTitle}
             collectionTotal={element.collectionTotal}

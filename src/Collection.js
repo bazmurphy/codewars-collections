@@ -16,9 +16,10 @@ const Collection = (props) => {
                 </div>
             </div>
 
-            {props.collectionKatas.map(element => {
+            {props.collectionKatas.map((element,index) => {
                 return (
                     <Kata
+                        key={index}
                         collectionNumber={element.kataCollectionNumber}
                         collectionTotal={props.collectionTotal}
                         kataId={element.kataId}

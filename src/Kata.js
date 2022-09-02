@@ -14,7 +14,7 @@ const Kata = (props) => {
 
         fetchData();
 
-    }, []);
+    }, [props.kataId]);
 
     // console.log(kataState);
     
