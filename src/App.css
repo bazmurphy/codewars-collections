@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: hsl(228, 10%, 10%);
+  color: hsl(0, 0%, 94%);
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  /* max-width: 700px; */
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  gap: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  background-color: hsl(228, 7%, 14%);
+}
+
+.header-sub-container-one {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  background-color: hsl(228, 10%, 10%);
+}
+
+.header-image{
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.header-title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-title {
+  font-size: 1.8rem;
+}
+
+.header-sub-container-two {
+  display: flex;
+  align-items: center;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  background-color: hsl(228, 10%, 10%);
+}
+
+.baz-image-link {
+  
+}
+
+.baz-image {
+  display: block;
+  width: 3.4rem;
+}
+
+.collection-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background-color: hsl(228, 7%, 14%);
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+}
+
+.collection-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  background-color: hsl(225, 7%, 11%);
+}
+
+.collection-info-sub-container-one {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+}
+
+.collection-title-image {
+  display: block;
+  width: 1rem;
+}
+
+.collection-title-label {
+
+}
+
+.collection-title {
+  color: hsl(221, 59%, 70%);
+  font-weight: bold;
+}
+
+
+.collection-info-sub-container-two {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+}
+
+.collection-total-label {
+
+}
+
+.collection-total{
+  color: hsl(159, 50%, 67%);
+}
+
+.kata-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  background-color: hsl(225, 7%, 11%);
+}
+
+.kata-sub-container-one {
+  display: flex;
+  align-items: stretch;
+  gap: 0.25rem;
+}
+
+.collection-number {
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  color: hsl(221, 59%, 70%);
+}
+
+.kata-level {
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+.kata-id {
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  color: hsl(240, 1%, 51%);
+}
+
+.kata-title-and-link {
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  color: hsl(221, 59%, 70%);
+  font-weight: bold;
+}
+
+.kata-sub-container-two {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.kata-complete {
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  width: 39px;
+  height: 39px;
+}
+
+.kata-complete-status-true {
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  color: hsl(159, 50%, 67%);
+  
+}
+
+.kata-complete-status-false {
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  color: hsl(28, 53%, 60%);
+}
+
+.kata-my-link {
+  padding: 0.5rem;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  color: hsl(253, 42%, 60%);
 }

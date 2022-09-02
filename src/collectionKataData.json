@@ -1,0 +1,380 @@
+[
+    {
+        "collectionTitle": "CYF JS-1 Week 1",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-js-1-week-1",
+        "collectionTotal": 7,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "53da3dbb4a5168369a0000fe",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "56dec885c54a926dcd001095",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "57a0e5c372292dd76d000d7e",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "55f9bca8ecaa9eac7100004a",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 5,
+                "kataId": "55225023e1be1ec8bc000390",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 6,
+                "kataId": "5772da22b89313a4d50012f7",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 7,
+                "kataId": "53369039d7ab3ac506000467",
+                "kataComplete": true
+            }
+        ]
+    },
+    {
+        "collectionTitle": "CYF JS-1 Week 2",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-js-1-week-2",
+        "collectionTotal": 10,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "55685cd7ad70877c23000102",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "57cc981a58da9e302a000214",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "54edbc7200b811e956000556",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "55d24f55d7dd296eb9000030",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 5,
+                "kataId": "56f6ad906b88de513f000d96",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 6,
+                "kataId": "536c00e21da4dc0a0700128b",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 7,
+                "kataId": "57356c55867b9b7a60000bd7",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 8,
+                "kataId": "57eadb7ecd143f4c9c0000a3",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 9,
+                "kataId": "57089707fe2d01529f00024a",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 10,
+                "kataId": "585a1a227cb58d8d740001c3",
+                "kataComplete": true
+            }
+        ]
+    },
+    {
+        "collectionTitle": "CYF JS-1 Week 3",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-js-1-week-3",
+        "collectionTotal": 14,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "53da3dbb4a5168369a0000fe",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "53ee5429ba190077850011d4",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "57096af70dad013aa200007b",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "53951fff369894e4f10007a9",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 5,
+                "kataId": "55edaba99da3a9c84000003b",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 6,
+                "kataId": "57f781872e3d8ca2a000007e",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 7,
+                "kataId": "57a0e5c372292dd76d000d7e",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 8,
+                "kataId": "532b4057484b0e58e8000766",
+                "kataComplete": false
+            },
+            {
+                "kataCollectionNumber": 9,
+                "kataId": "57d1f36705c186d018000813",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 10,
+                "kataId": "57f22b0f1b5432ff09001cab",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 11,
+                "kataId": "5899dc03bc95b1bf1b0000ad",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 12,
+                "kataId": "56676e8fabd2d1ff3000000c",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 13,
+                "kataId": "5648b12ce68d9daa6b000099",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 14,
+                "kataId": "5a2fd38b55519ed98f0000ce",
+                "kataComplete": true
+            }
+        ]
+    },
+    {
+        "collectionTitle": "CYF JS-2 Week 1",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-js-2-week-1",
+        "collectionTotal": 7,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "578c1e2edaa01a9a02000b7f",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "57d001b405c186ccb6000304",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "56c22c5ae8b139416c00175d",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "57ced2c1c6fdc22123000316",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 5,
+                "kataId": "5b6375f707a2664ada00002a",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 6,
+                "kataId": "5861d28f124b35723e00005e",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 7,
+                "kataId": "59a96d71dbe3b06c0200009c",
+                "kataComplete": true
+            }
+        ]
+    },
+    {
+        "collectionTitle": "CYF JS-2 Week 2",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-js-2-week-2",
+        "collectionTotal": 6,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "5809b62808ad92e31b000031",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "5467e4d82edf8bbf40000155",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "52a723508a4d96c6c90005ba",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "5250a89b1625e5decd000413",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 5,
+                "kataId": "57a429e253ba3381850000fb",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 6,
+                "kataId": "574b3b1599d8f897470018f6",
+                "kataComplete": true
+            }
+        ]
+    },
+    {
+        "collectionTitle": "CYF JS-2 Week 3",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-js-2-week-3",
+        "collectionTotal": 6,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "5641275f07335295f10000d0",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "538835ae443aae6e03000547",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "56c2578be8b139bd5c001bd8",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "5b68983a975680155000005d",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 5,
+                "kataId": "5b6c220fa0a661fbf200005d",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 6,
+                "kataId": "57eae20f5500ad98e50002c5",
+                "kataComplete": true
+            }
+        ]
+    },
+    {
+        "collectionTitle": "CYF JS-3 Week 1",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-js-3-week-1",
+        "collectionTotal": 5,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "56dae9dc54c0acd29d00109a",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "56d8ae9237123036d3001b54",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "56214b6864fe8813f1000019",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "558710234f02dcc4a8000005",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 5,
+                "kataId": "56bc28ad5bdaeb48760009b0",
+                "kataComplete": true
+            }
+        ]
+    },
+    {
+        "collectionTitle": "CYF JS-3 Week 2",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-js-3-week-2",
+        "collectionTotal": 4,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "5b61d6ef07a266d40b000097",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "5f0ed36164f2bc00283aed07",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "54da5a58ea159efa38000836",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "53a20af2e0afd3e2cd000333",
+                "kataComplete": true
+            }
+        ]
+    },
+    {
+        "collectionTitle": "CYF JS-3 Week 3",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-js-3-week-3",
+        "collectionTotal": 4,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "54bf1c2cd5b56cc47f0007a1",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "56c2a067585d9ac8280003c9",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "580a4734d6df748060000045",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "52af1f150fcae8d33d0009bc",
+                "kataComplete": true
+            }
+        ]
+    }
+]
