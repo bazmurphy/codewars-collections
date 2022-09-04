@@ -23,17 +23,19 @@ const Collection = (props) => {
                         <div className="collection-total">{props.collectionTotal}</div>
                     </div>
                 </div>
-            {open && props.collectionKatas.map((element,index) => {
-                return (
-                    <Kata
-                        key={index}
-                        collectionNumber={element.kataCollectionNumber}
-                        collectionTotal={props.collectionTotal}
-                        kataId={element.kataId}
-                        kataComplete={element.kataComplete}
-                    />
-                )
-            })}
+            {open && 
+                props.collectionKatas.map((element,index) => {
+                    return (
+                        <Kata
+                            key={index}
+                            collectionNumber={element.kataCollectionNumber}
+                            collectionTotal={props.collectionTotal}
+                            kataId={element.kataId}
+                            kataComplete={element.kataComplete}
+                        />
+                    )
+                })
+            }
         </div>
     );
 }
