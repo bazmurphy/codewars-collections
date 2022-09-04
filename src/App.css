@@ -4,7 +4,7 @@
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   background-color: hsl(228, 10%, 10%);
   color: hsl(0, 0%, 94%);
   font-family: "Lato", sans-serif;
@@ -12,7 +12,7 @@ body {
 }
 
 .App {
-  width: 600px;
+  max-width: 600px;
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
@@ -21,7 +21,7 @@ body {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  gap: 0.25rem;
   padding: 0.5rem;
   border: 0.15rem solid hsl(240, 4%, 22%);
   border-radius: 0.3rem;
@@ -31,6 +31,7 @@ body {
 .header-sub-container-one {
   display: flex;
   align-items: center;
+  flex-grow: 1;
   gap: 0.5rem;
   padding: 0.5rem;
   border: 0.15rem solid hsl(240, 4%, 22%);
@@ -89,18 +90,17 @@ body {
   background-color: hsl(225, 7%, 11%);
 }
 
-.collection-toggle-button {
+.collection-info-sub-container > * {
   padding: 0.5rem;
   border: 0.15rem solid hsl(240, 4%, 22%);
   border-radius: 0.3rem;
+}
+
+.collection-toggle-button {
   background-color: inherit;
   color: inherit;
   line-height: normal;
-}
-
-.fa-solid {
-  background-color: inherit;
-  color: inherit;
+  cursor: pointer;
 }
 
 .collection-toggle-button:hover {
@@ -108,13 +108,15 @@ body {
   border: 0.15rem solid hsl(221, 59%, 70%);
 }
 
+.fa-solid {
+  background-color: inherit;
+  color: inherit;
+}
+
 .collection-title-sub-container {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.5rem;
-  border: 0.15rem solid hsl(240, 4%, 22%);
-  border-radius: 0.3rem;
 }
 
 
@@ -132,13 +134,14 @@ body {
   font-weight: bold;
 }
 
+.collection-title:hover {
+  color: hsl(221, 59%, 80%);
+}
+
 .collection-total-sub-container {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.5rem;
-  border: 0.15rem solid hsl(240, 4%, 22%);
-  border-radius: 0.3rem;
 }
 
 .collection-total-label {
@@ -165,61 +168,52 @@ body {
   gap: 0.25rem;
 }
 
-.collection-number {
+.kata-sub-container > * {
   padding: 0.5rem;
   border: 0.15rem solid hsl(240, 4%, 22%);
   border-radius: 0.3rem;
+}
+
+.collection-number {
   color: hsl(221, 59%, 70%);
 }
 
 .kata-level {
-  padding: 0.5rem;
-  border: 0.15rem solid hsl(240, 4%, 22%);
-  border-radius: 0.3rem;
   font-weight: bold;
 }
 
 .kata-id {
-  padding: 0.5rem;
-  border: 0.15rem solid hsl(240, 4%, 22%);
-  border-radius: 0.3rem;
   font-size: 0.8rem;
   color: hsl(240, 1%, 51%);
 }
 
 .kata-title-and-link {
-  padding: 0.5rem;
-  border: 0.15rem solid hsl(240, 4%, 22%);
-  border-radius: 0.3rem;
   color: hsl(221, 59%, 70%);
   font-weight: bold;
 }
 
+.kata-title-and-link:hover {
+  color: hsl(221, 59%, 80%);
+}
+
 .kata-complete-image {
-  border: 0.15rem solid hsl(240, 4%, 22%);
-  border-radius: 0.3rem;
+  padding: 0;
   width: 39px;
   height: 39px;
 }
 
 .kata-complete-status-true {
-  padding: 0.5rem;
-  border: 0.15rem solid hsl(240, 4%, 22%);
-  border-radius: 0.3rem;
   color: hsl(159, 50%, 67%);
-  
 }
 
 .kata-complete-status-false {
-  padding: 0.5rem;
-  border: 0.15rem solid hsl(240, 4%, 22%);
-  border-radius: 0.3rem;
   color: hsl(28, 53%, 60%);
 }
 
 .kata-my-link {
-  padding: 0.5rem;
-  border: 0.15rem solid hsl(240, 4%, 22%);
-  border-radius: 0.3rem;
   color: hsl(253, 42%, 60%);
+}
+
+.kata-my-link:hover {
+  color: hsl(253, 42%, 70%);
 }
