@@ -376,5 +376,37 @@
                 "kataComplete": true
             }
         ]
+    },
+    {
+        "collectionTitle": "CYF Handling Falsy",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-handling-falsy",
+        "collectionTotal": 5,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "58dd98fe8d29b0f30d0002bd",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "5828713ed04efde70e000346",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "56b1eb19247c01493a000065",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "5174a4c0f2769dd8b1000003",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 5,
+                "kataId": "5202ef17a402dd033c000009",
+                "kataComplete": true
+            }
+        ]
     }
 ]
