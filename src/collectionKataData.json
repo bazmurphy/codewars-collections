@@ -254,43 +254,7 @@
             }
         ]
     },
-    {
-        "collectionTitle": "CYF JS-2 Week 3",
-        "collectionUrl": "https://www.codewars.com/collections/cyf-js-2-week-3",
-        "collectionTotal": 6,
-        "collectionKatas": [
-            {
-                "kataCollectionNumber": 1,
-                "kataId": "5641275f07335295f10000d0",
-                "kataComplete": true
-            },
-            {
-                "kataCollectionNumber": 2,
-                "kataId": "538835ae443aae6e03000547",
-                "kataComplete": true
-            },
-            {
-                "kataCollectionNumber": 3,
-                "kataId": "56c2578be8b139bd5c001bd8",
-                "kataComplete": true
-            },
-            {
-                "kataCollectionNumber": 4,
-                "kataId": "5b68983a975680155000005d",
-                "kataComplete": true
-            },
-            {
-                "kataCollectionNumber": 5,
-                "kataId": "5b6c220fa0a661fbf200005d",
-                "kataComplete": true
-            },
-            {
-                "kataCollectionNumber": 6,
-                "kataId": "57eae20f5500ad98e50002c5",
-                "kataComplete": true
-            }
-        ]
-    },
+ 
     {
         "collectionTitle": "CYF JS-3 Week 1",
         "collectionUrl": "https://www.codewars.com/collections/cyf-js-3-week-1",
@@ -405,6 +369,43 @@
             {
                 "kataCollectionNumber": 5,
                 "kataId": "5202ef17a402dd033c000009",
+                "kataComplete": true
+            }
+        ]
+    },
+    {
+        "collectionTitle": "CYF React",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-react",
+        "collectionTotal": 6,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "586909e4c66d18dd1800009b",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "582ba36cc1901399a70005fc",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "52195c9bb576caf14200007f",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "583952fbc23341c7180002fd",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 5,
+                "kataId": "58279e13c983ca4a2a00002a",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 6,
+                "kataId": "582dace555a1f4d859000058",
                 "kataComplete": true
             }
         ]
