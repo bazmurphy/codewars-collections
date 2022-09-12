@@ -12,7 +12,7 @@ const Collection = (props) => {
     return (
         <div className="collection-container">
                 <div className="collection-info-sub-container">
-                    <button className="collection-toggle-button" onClick={toggle}>{open ? <i class="fa-solid fa-minus"></i> : <i class="fa-solid fa-plus"></i> }</button>
+                <button className="collection-toggle-button" onClick={toggle}>{open ? <i className="fa-solid fa-minus"></i> : <i className="fa-solid fa-plus"></i> }</button>
                     <div className="collection-title-sub-container">
                         <img className="collection-title-image" src="collection.png" alt="collection logo" />
                         <div className="collection-title-label">Collection:</div>

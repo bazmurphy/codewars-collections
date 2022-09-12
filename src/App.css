@@ -11,7 +11,6 @@ body {
 }
 
 .App {
-  max-width: 600px;
   display: flex;
   flex-direction: column;
   padding: 0.5rem;
@@ -28,6 +27,21 @@ body {
 }
 
 .header-sub-container-one {
+  display: flex;
+  align-items: center;
+  border: 0.15rem solid hsl(240, 4%, 22%);
+  border-radius: 0.3rem;
+  background-color: hsl(228, 10%, 10%);
+}
+
+.baz-image-link {}
+
+.baz-image {
+  display: block;
+  width: 3.4rem;
+}
+
+.header-sub-container-two {
   display: flex;
   align-items: center;
   flex-grow: 1;
@@ -50,23 +64,6 @@ body {
 
 .header-title {
   font-size: 1.8rem;
-}
-
-.header-sub-container-two {
-  display: flex;
-  align-items: center;
-  border: 0.15rem solid hsl(240, 4%, 22%);
-  border-radius: 0.3rem;
-  background-color: hsl(228, 10%, 10%);
-}
-
-.baz-image-link {
-  
-}
-
-.baz-image {
-  display: block;
-  width: 3.4rem;
 }
 
 .collection-container {
@@ -207,10 +204,14 @@ body {
   color: hsl(28, 53%, 60%);
 }
 
-.kata-my-link {
+.kata-my-link-complete {
   color: hsl(253, 42%, 60%);
 }
 
-.kata-my-link:hover {
+.kata-my-link-complete:hover {
   color: hsl(253, 42%, 70%);
+}
+
+.kata-my-link-incomplete {
+  color: hsl(240, 1%, 51%);
 }
