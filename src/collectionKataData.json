@@ -342,7 +342,7 @@
     {
         "collectionTitle": "CYF JS-3 Week 2",
         "collectionUrl": "https://www.codewars.com/collections/cyf-js-3-week-2",
-        "collectionTotal": 4,
+        "collectionTotal": 5,
         "collectionKatas": [
             {
                 "kataCollectionNumber": 1,
@@ -363,7 +363,12 @@
                 "kataCollectionNumber": 4,
                 "kataId": "53a20af2e0afd3e2cd000333",
                 "kataComplete": true
-            }
+            },
+            {
+              "kataCollectionNumber": 5,
+              "kataId": "55b86beb1417eab500000051",
+              "kataComplete": true
+            }            
         ]
     },
     {
@@ -558,5 +563,22 @@
                 "kataComplete": true
             }
         ]
+    },
+    {
+      "collectionTitle": "CYF Sets",
+      "collectionUrl": "https://www.codewars.com/collections/cyf-sets",
+      "collectionTotal": 2,
+      "collectionKatas": [
+        {
+          "kataCollectionNumber": 1,
+          "kataId": "56b1eb19247c01493a000065",
+          "kataComplete": true
+        },
+        {
+          "kataCollectionNumber": 2,
+          "kataId": "5fddfbe6a65636001cc4fcd2",
+          "kataComplete": true
+        }
+      ]
     }
 ]
