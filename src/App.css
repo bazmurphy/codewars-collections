@@ -176,6 +176,14 @@ body {
   font-weight: bold;
 }
 
+.kata-level-8-7-kyu {
+  color: inherit;
+}
+
+.kata-level-6-5-kyu {
+  color: hsl(45, 85%, 50%);
+}
+
 .kata-id {
   font-size: 0.8rem;
   color: hsl(240, 1%, 51%);
