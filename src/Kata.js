@@ -22,7 +22,19 @@ const Kata = (props) => {
         <div className="kata-container">
             <div className="kata-sub-container">
                 <div className="collection-number">{props.collectionNumber} / {props.collectionTotal}</div>
-                <div className="kata-level">{kataState ? Math.abs(kataState.rank.id) : null} kyu</div>
+                <div className="kata-rank-container">
+                  { kataState ? 
+                  <div className="kata-rank-hexagon">
+                    <div className={`kata-rank-hexagon-left-outside kata-rank-hexagon-outside-rank-${Math.abs(kataState.rank.id)}`}>
+                      <div className="kata-rank-hexagon-left-inside"></div>
+                    </div>
+                    <div className={`kata-rank-hexagon-body kata-rank-${Math.abs(kataState.rank.id)}`}>{Math.abs(kataState.rank.id)} kyu</div>
+                    <div className={`kata-rank-hexagon-right-outside kata-rank-hexagon-outside-rank-${Math.abs(kataState.rank.id)}`}>
+                      <div className="kata-rank-hexagon-right-inside"></div>
+                    </div>
+                  </div>
+                : null }
+                </div>
                 <a className="kata-title-and-link" href={`https://www.codewars.com/kata/${props.kataId}`} target="_blank" rel="noreferrer">{kataState ? kataState.name : null}</a>
                 {props.kataComplete ? <img className="kata-complete-image" src="./complete.png" alt="js logo green" /> : <img className="kata-complete-image" src="./incomplete.png" alt="js logo white"/>}
                 {props.kataComplete ? <div className="kata-complete-status-true">Completed</div> : <div className="kata-complete-status-false">Incomplete</div>}

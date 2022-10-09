@@ -172,8 +172,78 @@ body {
   color: hsl(221, 59%, 70%);
 }
 
-.kata-level {
+.kata-rank-container {
+  padding: 0.25rem;
+}
+
+.kata-rank-hexagon {
+  display: flex;
+}
+
+.kata-rank-hexagon-left-outside {
+  position: relative;
+  clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+  width: 10px;
+  height: 26px;
+  /* background: hsl(45, 85%, 50%); */
+}
+
+.kata-rank-hexagon-left-inside {
+  position: absolute;
+  clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+  top: 4px;
+  left: 4px;
+  right: 0px;
+  bottom: 4px;
+  background: black;
+}
+
+.kata-rank-hexagon-body {
+  padding-top: 4px;
+  background: black;
+  font-size: 0.6rem;
   font-weight: bold;
+}
+
+.kata-rank-hexagon-right-outside {
+  position: relative;
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  width: 10px;
+  height: 26px;
+}
+
+.kata-rank-hexagon-right-inside {
+  position: absolute;
+  clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+  top: 4px;
+  left: 0px;
+  right: 4px;
+  bottom: 4px;
+  background: black;
+}
+
+.kata-rank-8,
+.kata-rank-7 {
+  border-top: 3px solid hsl(0, 0%, 90%);
+  border-bottom: 3px solid hsl(0, 0%, 90%);
+  color: hsl(0, 0%, 90%);
+}
+
+.kata-rank-6,
+.kata-rank-5 {
+  border-top: 3px solid hsl(45, 85%, 50%);
+  border-bottom: 3px solid hsl(45, 85%, 50%);
+  color: hsl(45, 85%, 50%);
+}
+
+.kata-rank-hexagon-outside-rank-8,
+.kata-rank-hexagon-outside-rank-7 {
+  background: hsl(0, 0%, 100%);
+}
+
+.kata-rank-hexagon-outside-rank-6, 
+.kata-rank-hexagon-outside-rank-5 {
+  background: hsl(45, 85%, 50%);
 }
 
 .kata-id {
@@ -205,6 +275,7 @@ body {
 }
 
 .kata-my-link-complete {
+  font-weight: bold;
   color: hsl(253, 42%, 60%);
 }
 
@@ -213,5 +284,6 @@ body {
 }
 
 .kata-my-link-incomplete {
+  font-weight: bold;
   color: hsl(240, 1%, 51%);
 }
