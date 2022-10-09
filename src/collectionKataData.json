@@ -528,6 +528,23 @@
         ]
     },
     {
+      "collectionTitle": "CYF Sets",
+      "collectionUrl": "https://www.codewars.com/collections/cyf-sets",
+      "collectionTotal": 2,
+      "collectionKatas": [
+        {
+          "kataCollectionNumber": 1,
+          "kataId": "56b1eb19247c01493a000065",
+          "kataComplete": true
+        },
+        {
+          "kataCollectionNumber": 2,
+          "kataId": "5fddfbe6a65636001cc4fcd2",
+          "kataComplete": true
+        }
+      ]
+    },
+    {
         "collectionTitle": "CYF React",
         "collectionUrl": "https://www.codewars.com/collections/cyf-react",
         "collectionTotal": 6,
@@ -565,20 +582,30 @@
         ]
     },
     {
-      "collectionTitle": "CYF Sets",
-      "collectionUrl": "https://www.codewars.com/collections/cyf-sets",
-      "collectionTotal": 2,
-      "collectionKatas": [
-        {
-          "kataCollectionNumber": 1,
-          "kataId": "56b1eb19247c01493a000065",
-          "kataComplete": true
-        },
-        {
-          "kataCollectionNumber": 2,
-          "kataId": "5fddfbe6a65636001cc4fcd2",
-          "kataComplete": true
-        }
-      ]
+        "collectionTitle": "CYF Final Projects",
+        "collectionUrl": "https://www.codewars.com/collections/cyf-final-projects",
+        "collectionTotal": 4,
+        "collectionKatas": [
+            {
+                "kataCollectionNumber": 1,
+                "kataId": "5266876b8f4bf2da9b000362",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 2,
+                "kataId": "525f50e3b73515a6db000b83",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 3,
+                "kataId": "514b92a657cdc65150000006",
+                "kataComplete": true
+            },
+            {
+                "kataCollectionNumber": 4,
+                "kataId": "5fddfbe6a65636001cc4fcd2",
+                "kataComplete": true
+            }
+        ]
     }
 ]
