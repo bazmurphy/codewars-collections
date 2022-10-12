@@ -11,7 +11,7 @@ const Header = () => {
             <div className="header-sub-container-two">
                 <img className="header-image" src="codewars.png" alt="codewars logo"/>
                 <a className="header-title-link" href="https://www.codewars.com/users/CodeYourFuture/authored_collections" target="_blank" rel="noreferrer">
-                    <h1 className="header-title">CYF CodeWars Collections</h1>
+                    <h1 className="header-title">CYF Codewars Collections</h1>
                 </a>
             </div>
         </div>
